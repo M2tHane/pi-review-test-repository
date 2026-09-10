@@ -11,7 +11,7 @@ npm test
 仓库包含两个分支：
 
 - `main`：干净基线。
-- `demo/review-me`：增加一个有意缺少路径边界检查的文件读取功能，用于创建审查 PR。
+- `demo/review-me`：先增加一个有意缺少路径边界检查的文件读取功能，再用新提交修复，用于验证 `synchronize` 复审。
 
 上传到 GitHub 后安装待测 GitHub App，再从 `demo/review-me` 向 `main` 创建非 Draft PR。该演示分支只用于安全测试，不要把它合并到生产代码。
 
