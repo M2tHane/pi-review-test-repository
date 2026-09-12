@@ -12,6 +12,6 @@ public final class OrderCatalog {
     }
 
     public List<String> listOrders() {
-        return orders;
+        return List.copyOf(orders);
     }
 }
